@@ -61,13 +61,36 @@ div#formulario > p {
 form > div.campo {
     display: block;
     width: 100%;
-    height: 30px;
-    border-radius: 5px;
-    margin: 5px 0px;
+    height: 40px;
+    border-radius: 8px;
+    margin: 11px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+
+
+div.campo > span {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    border-radius: 30%;
+    text-align: center;
+}
+
+div.campo > input {
+    background-color: lightgray;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-10px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
@@ -80,6 +103,7 @@ form > input[type=submit] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 form > input[type=submit]:hover {
